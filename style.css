@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+  font-family: "Overpass", sans-serif;
+}
+
+body {
+  background-color: rgb(189, 207, 207);
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 375px;
+  margin: 50px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+img {
+  width: 98%;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+p {
+  color: grey;
+}
+
+h3,
+p {
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 20px;
+}
